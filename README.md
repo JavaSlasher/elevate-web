@@ -3,11 +3,12 @@
 1) https://github.com/JetBrains/intellij-community/releases
  Setup with trial. After trial runs out you will still be able to use community edition.
 2) Install GitHub https://git-scm.com/install/
-3) Setup api: `git clone https://github.com/JavaSlasher/elevate-api.git`
-4) clone web repo : `git clone https://github.com/JavaSlasher/elevate-web.git` if you don't have access contact nirishpyakurel@gmail.com
-5) Setup nvm to easily switch or download required node(currently 24): https://github.com/nvm-sh/nvm/releases setup according to your OS specifications / https://github.com/coreybutler/nvm-windows
-6) in project root run: `npm install`
-7) to run project locally: `npm run dev` (must have api running locally on port:8080)
+3) Lookup instruction to set up SSH keys for your GitHub account
+4) Setup api: `git clone git@github.com:JavaSlasher/elevate-api.git`
+5) clone web repo : `git clone git@github.com:JavaSlasher/elevate-web.git` if you don't have access contact nirishpyakurel@gmail.com
+6) Setup nvm to easily switch or download required node(currently 24): https://github.com/nvm-sh/nvm/releases setup according to your OS specifications / https://github.com/coreybutler/nvm-windows
+7) in project root run: `npm install`
+8) to run project locally: `npm run dev` (must have api running locally on port:8080)
 
 
 # React + TypeScript + Vite
